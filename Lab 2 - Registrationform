@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    
+        <h1>REGISTRATION FORM</h1>
+        <span>First Name :</span><input type="text"autofocus placeholder="Enter your first Name" maxlength="30"/><br>
+        <input type="radio"id="Gender"/><span>Female</span>
+        <input type="radio"id="Gender"/><span>Male</span>
+        <hr/>
+        <input type="checkbox"/>Accept Terms and Conditions<hr/>
+        <input type="File"Multiple accept="jpg, jpeg, png"/><hr/>
+        <input type="Submit"/><hr/>
+        <button>Click here...</button><hr/>
+        <input type="date"/><hr/>
+        <input type="color"/><hr/>
+        <input type="time"/><hr/>
+        <input type="range"/><hr/>
+        <textarea rows="s" placeholder="Enter Address" maxlength="200"></textarea>
+
+        <fieldset>
+            <legend>Sign In</legend>
+            <span>Username</span><hr/>
+            <input type="text" placeholder="Enter username here..." maxlength="50"/><hr/>
+            <input type="button" value="Sign In"/>
+        </fieldset>
+</body>
+</html>
